@@ -1,0 +1,21 @@
+{
+  "name": "ja-fast-delivery-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for J.A Fast Delivery web platform",
+  "private": true,
+  "scripts": {
+    "dev": "serve apps/web",
+    "build": "echo 'No build step for vanilla JS'",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
